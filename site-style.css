@@ -1,0 +1,122 @@
+body.brk-themed {
+  margin: 0;
+  padding: 24px 0;
+  background: #f4f7fb;
+  color: #102a43;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.55;
+}
+
+.brk-shell {
+  width: min(1100px, 94%);
+  margin: 0 auto;
+}
+
+.brk-header {
+  background: #ffffff;
+  border: 1px solid #c9d6e2;
+  border-radius: 14px;
+  padding: 18px 16px;
+  box-shadow: 0 2px 8px rgba(16, 42, 67, 0.08);
+  margin: 0 0 16px;
+}
+
+.brk-card {
+  background: #ffffff;
+  border: 1px solid #c9d6e2;
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 1px 4px rgba(16, 42, 67, 0.06);
+  margin: 12px 0;
+}
+
+body.brk-themed hr {
+  border: 0;
+  border-top: 1px solid #c9d6e2;
+  margin: 18px 0;
+}
+
+body.brk-themed a {
+  color: #0b4f94;
+  text-decoration-color: #7fa9d3;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+body.brk-themed a:visited {
+  color: #5a2d82;
+}
+
+body.brk-themed a:hover {
+  color: #083b6d;
+  text-decoration-color: #083b6d;
+  text-decoration-thickness: 2px;
+}
+
+body.brk-themed a:focus-visible {
+  outline: 2px solid #4a90d9;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.brk-link-list,
+.brk-link-list ul,
+.brk-link-list menu,
+.brk-link-list dl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.brk-link-list li,
+.brk-link-list dt,
+.brk-link-list p {
+  background: #ffffff;
+  border: 1px solid #c9d6e2;
+  border-radius: 12px;
+  padding: 12px 14px;
+  box-shadow: 0 1px 4px rgba(16, 42, 67, 0.06);
+  margin: 0 0 12px;
+}
+
+.brk-link-list li:last-child,
+.brk-link-list dt:last-child,
+.brk-link-list p:last-child {
+  margin-bottom: 0;
+}
+
+body.brk-themed table {
+  max-width: 100%;
+}
+
+.reports-page .MsoNormalTable {
+  background: #ffffff;
+  border: 1px solid #c9d6e2 !important;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(16, 42, 67, 0.06);
+  overflow: hidden;
+}
+
+.reports-page .WordSection1 > p:first-child {
+  background: #ffffff;
+  border: 1px solid #c9d6e2;
+  border-radius: 14px;
+  padding: 16px 12px;
+  box-shadow: 0 2px 8px rgba(16, 42, 67, 0.08);
+  margin-bottom: 14px;
+}
+
+.reports-page .WordSection1 > div[align="center"] {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 820px) {
+  .brk-shell {
+    width: 94%;
+  }
+
+  .reports-page table {
+    width: 100% !important;
+  }
+}
